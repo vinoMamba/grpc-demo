@@ -1,6 +1,9 @@
 syntax = "proto3";
 
+option go_package = "./hello";
+
 package hello;
+
 
  // 定义服务
 service Hello {
